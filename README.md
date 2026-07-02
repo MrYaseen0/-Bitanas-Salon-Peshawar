@@ -179,7 +179,7 @@ Edit via: `npx prisma studio`
 
 **Yaseen Ahmad** — *Full-Stack Developer*
 
-![Yaseen Ahmad](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80)
+![Yaseen Ahmad](https://drive.google.com/uc?export=download&id=1Ig7ZxMz29coxDjWrletU1dYf0pNaEr_h)
 
 > "I don't just write code; I build solutions."
 
