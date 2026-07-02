@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9c2a44;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d6446a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9c2a44;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8b84b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9962a;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="#ffffff" opacity="0.15" />
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#dots)" />
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="180" fill="#ffffff" opacity="0.05" />
+  <circle cx="1100" cy="530" r="220" fill="#e8b84b" opacity="0.08" />
+
+  <!-- Logo mark -->
+  <g transform="translate(80, 240)">
+    <rect width="120" height="120" rx="28" fill="#ffffff" opacity="0.15" />
+    <text x="60" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#ffffff">B</text>
+    <circle cx="92" cy="36" r="6" fill="url(#gold)" />
+  </g>
+
+  <!-- Brand name -->
+  <text x="240" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="#ffffff">Bitanas Salon</text>
+
+  <!-- Tagline -->
+  <text x="244" y="355" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-style="italic" fill="#f0d4dc">Where Beauty Meets Artistry</text>
+
+  <!-- Location + rating -->
+  <g transform="translate(244, 410)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff" opacity="0.9">✨ Hayatabad, Peshawar</text>
+    <text x="0" y="40" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="url(#gold)" font-weight="bold">★ 4.9 (125+ reviews)</text>
+    <text x="0" y="80" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.75">Bridal · Makeup · Hair · Nails · Spa</text>
+  </g>
+
+  <!-- Corner sparkles -->
+  <text x="1050" y="120" font-size="48" fill="url(#gold)" opacity="0.9">✨</text>
+  <text x="1100" y="200" font-size="32" fill="url(#gold)" opacity="0.7">💫</text>
+</svg>
