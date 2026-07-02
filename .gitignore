@@ -41,6 +41,7 @@ workspace-*
 
 # large files
 *.png
+!screenshots/*.png
 download/
 db/custom.db
 

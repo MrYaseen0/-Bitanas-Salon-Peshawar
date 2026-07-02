@@ -1,20 +1,128 @@
 # Bitanas Salon Peshawar — Luxury Beauty & Wellness
 
-![Bitanas Salon](https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=1200&q=80)
-
 A full-stack, single-page Next.js website for **Bitanas Salon** — a luxury beauty salon in Hayatabad, Peshawar. The site combines a beautiful brand showcase with a complete business management system: online booking, reviews, gift cards, loyalty program, admin dashboard, and an AI-powered chatbot concierge.
 
 ---
 
 ## Screenshots
 
-| Hero Section | Services | Booking |
-|:---:|:---:|:---:|
-| ![Hero](https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=400&q=60) | ![Services](https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&q=60) | ![Booking](https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&q=60) |
-| **Gallery** | **Transformations** | **Admin Dashboard** |
-| ![Gallery](https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&q=60) | ![Transformations](https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&q=60) | ![Admin](https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&q=60) |
+### Hero — Landing Page
 
-> Screenshots above are placeholders from the Unsplash collection. Replace with actual site captures for production use.
+![Hero Section](screenshots/01-hero.png)
+
+Full-screen hero with image collage, floating 4.9-star rating card, gradient text, animated entrance, and dual CTAs — "Book a Visit" and "Explore Services".
+
+---
+
+### Services Overview
+
+![Services Overview](screenshots/02-services-overview.png)
+
+12 services across 5 categories (Hair, Makeup, Nails, Skin & Spa, Bridal) with filterable grid, popular badges, pricing, durations, and "Book" buttons that pre-fill the booking form.
+
+---
+
+### Bridal Packages (Mobile)
+
+![Bridal Packages](screenshots/03-packages-mobile.png)
+
+3 bridal tiers — Essentials (PKR 45k), Royale (PKR 85k), and Maharani (PKR 160k) — with feature lists, WhatsApp booking links, and original/discounted pricing display.
+
+---
+
+### Service Comparison (Mobile)
+
+![Service Comparison](screenshots/04-comparison-mobile.png)
+
+Express vs Signature vs Premium tier comparison table with 10 feature rows — duration, senior artist, premium products, home service, trial session, and more. Desktop shows a table; mobile shows cards.
+
+---
+
+### Price Calculator (Mobile)
+
+![Price Calculator](screenshots/05-price-calculator-mobile.png)
+
+Interactive price calculator with 10 service chips and 4 add-on toggles. Shows live-updating total, estimated duration, loyalty points earned, and a "Book This on WhatsApp" button.
+
+---
+
+### Transformations (Mobile)
+
+![Transformations](screenshots/06-transformations-mobile.png)
+
+Before/after comparison slider with 3 transformations — Sun-Kissed Balayage, Bridal Glam, and Acrylic Nail Art. Auto-advances every 7 seconds with draggable divider.
+
+---
+
+### Reviews (Mobile)
+
+![Reviews](screenshots/07-reviews-mobile.png)
+
+Dynamic reviews section with verified badges, 4.9-star summary card with distribution bars, rating filter (All/5/4/3), loading skeletons, and a review submission dialog with star rating.
+
+---
+
+### Admin Dashboard
+
+![Admin Dashboard](screenshots/08-admin-dashboard.png)
+
+Password-gated full-screen overlay with 6-tab sidebar — Bookings, Reviews, Messages, Newsletter, Waitlist, Applications. Features live search/filter, confirm/cancel bookings, approve/hide reviews, and CSV export for all data types.
+
+---
+
+### Dark Mode
+
+![Dark Mode](screenshots/09-dark-mode.png)
+
+Full dark theme with next-themes integration. Sun/moon toggle in navbar. All sections, components, and overlays adapt to the dark palette with proper contrast and rose-pink accents.
+
+---
+
+### Seasonal Banner
+
+![Seasonal Banner](screenshots/10-seasonal-banner.png)
+
+Month-aware campaign banner that auto-rotates between seasonal promotions — Wedding Season, Valentine's, Spring Glow, Summer Spa, Eid, and Winter themes. Dismissible with session persistence.
+
+---
+
+### Mobile View
+
+![Mobile View](screenshots/11-mobile-view.png)
+
+Fully responsive design optimized for mobile devices. Sticky glass navbar with hamburger menu, touch-friendly cards, swipeable carousels, and properly scaled typography.
+
+---
+
+### Viewport
+
+![Viewport](screenshots/12-viewport.png)
+
+Clean viewport with scroll progress bar, sticky navbar with active section detection, and smooth scroll-to-section navigation across all 8 section groups.
+
+---
+
+### Hero Desktop
+
+![Hero Desktop](screenshots/13-hero-desktop.png)
+
+Desktop hero layout with image collage, seasonal offer banner chip, brand marquee, and the full-width Stats counter strip (125+ reviews, 8+ years, 12+ services, 5000+ clients).
+
+---
+
+### Banner Fixed
+
+![Banner Fixed](screenshots/14-banner-fixed.png)
+
+Seasonal banner overlay that sits above the hero without blocking content. Properly positioned to scroll away while the sticky navbar remains fixed.
+
+---
+
+### Mobile Navigation
+
+![Mobile Navigation](screenshots/15-mobile-r8.png)
+
+Mobile navigation menu with all 9 section links, dark mode toggle, language switcher (English/Roman Urdu), and "Book Now" CTA button.
 
 ---
 
@@ -82,13 +190,13 @@ A full-stack, single-page Next.js website for **Bitanas Salon** — a luxury bea
 - **Daily Beauty Tip** — Rotating tips with auto-cycle, pause-on-hover
 
 ### AI & Automation
-- **AI Chatbot "Bella"** — Fully local agent, no API calls. Handles services, pricing, booking flow, FAQs, artist lookup, brands, offers, gift cards, reviews, and more — with intelligent catch-all search across all data
+- **AI Chatbot "Bella"** — Fully local agent, no API calls. Handles services, pricing, booking flow, FAQs, artist lookup, brands, offers, gift cards, reviews — with intelligent catch-all search across all data
 - **Live Feed** — Simulated social proof ticker ("Sarah just booked Balayage")
 - **Live Viewers** — Simulated "18 viewing now" counter with random fluctuation
 - **Random Act of Beauty** — Surprise reward popup every 30-90s
 
 ### Admin & Operations
-- **Admin Dashboard** — Password-gated full-screen overlay, 6-tab sidebar (Bookings, Reviews, Messages, Newsletter, Waitlist, Applications), confirm/cancel bookings, approve/hide reviews, CSV export
+- **Admin Dashboard** — Password-gated, 6-tab sidebar, confirm/cancel bookings, approve/hide reviews, CSV export
 - **Availability Widget** — Live open/closed status, green/red pulse, next change time
 - **Scroll Progress** — Thin gradient bar tracking scroll percentage
 - **Dark Mode** — next-themes integration, full dark theme
@@ -149,13 +257,6 @@ src/
 └── lib/                      ← db.ts, salon-data.ts, utils.ts, audio-feedback.ts, confetti.ts, glow-score.ts
 ```
 
-### Page Sections (in order)
-
-```
-Brand Introduction → Services & Pricing → Portfolio → Booking & Offers
-→ Team & Trust → Rewards & Community → Experience Zone (tabbed) → Connect
-```
-
 ---
 
 ## Database Models
@@ -185,13 +286,15 @@ Edit via: `npx prisma studio`
 
 Software Engineering student at CECOS University, Peshawar. Passionate about Web Development and creating responsive, user-friendly digital experiences.
 
-- **Contact:** 0318-937042
-- **WhatsApp:** 03189370042
-- **GitHub:** [MrYaseenexe](https://github.com/MrYaseenexe)
-- **LinkedIn:** [Yaseen Ahmad](https://linkedin.com/in/yaseen-ahmad-489967280)
-- **Instagram:** [@yaseenahmadexe](https://www.instagram.com/yaseenahmadexe)
-- **Facebook:** [Yaseen Ahmad](https://www.facebook.com/share/1HN9vegPhd/)
-- **TikTok:** [@mryaseen.exe](https://www.tiktok.com/@mryaseen.exe)
+| | |
+|---|---|
+| **Contact** | 0318-937042 |
+| **WhatsApp** | 03189370042 |
+| **GitHub** | [MrYaseenexe](https://github.com/MrYaseenexe) |
+| **LinkedIn** | [Yaseen Ahmad](https://linkedin.com/in/yaseen-ahmad-489967280) |
+| **Instagram** | [@yaseenahmadexe](https://www.instagram.com/yaseenahmadexe) |
+| **Facebook** | [Yaseen Ahmad](https://www.facebook.com/share/1HN9vegPhd/) |
+| **TikTok** | [@mryaseen.exe](https://www.tiktok.com/@mryaseen.exe) |
 
 ---
 
