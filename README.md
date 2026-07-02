@@ -6,123 +6,66 @@ A full-stack, single-page Next.js website for **Bitanas Salon** — a luxury bea
 
 ## Screenshots
 
+### AI Chatbot — Bella
+
+![Bella Chatbot](screenshots/01-chatbot.png)
+
+Fully local AI chatbot with zero API calls — greets visitors and offers quick actions like service exploration and price estimation.
+Handles bookings, FAQs, artist lookups, and beauty recommendations through natural conversation.
+
+---
+
 ### Hero — Landing Page
 
-![Hero Section](screenshots/01-hero.png)
+![Hero Section](screenshots/02-hero.png)
 
-Full-screen hero with image collage, floating 4.9-star rating card, gradient text, animated entrance, and dual CTAs — "Book a Visit" and "Explore Services".
-
----
-
-### Services Overview
-
-![Services Overview](screenshots/02-services-overview.png)
-
-12 services across 5 categories (Hair, Makeup, Nails, Skin & Spa, Bridal) with filterable grid, popular badges, pricing, durations, and "Book" buttons that pre-fill the booking form.
+Full-screen hero with image collage, floating 4.9-star rating card, live bookings ticker, and animated entrance effects.
+Dual CTAs — "Book Your Visit" and "Explore Services" — with a seasonal Bridal Season Special banner.
 
 ---
 
-### Bridal Packages (Mobile)
+### Services — Filterable Grid
 
-![Bridal Packages](screenshots/03-packages-mobile.png)
+![Services Grid](screenshots/03-services.png)
 
-3 bridal tiers — Essentials (PKR 45k), Royale (PKR 85k), and Maharani (PKR 160k) — with feature lists, WhatsApp booking links, and original/discounted pricing display.
-
----
-
-### Service Comparison (Mobile)
-
-![Service Comparison](screenshots/04-comparison-mobile.png)
-
-Express vs Signature vs Premium tier comparison table with 10 feature rows — duration, senior artist, premium products, home service, trial session, and more. Desktop shows a table; mobile shows cards.
+12 services across 5 categories (Hair, Makeup, Nails, Skin & Spa, Bridal) with filterable tabs and popular badges.
+Each card shows pricing, duration, premium product tags, and a "Book" button that pre-fills the booking form.
 
 ---
 
-### Price Calculator (Mobile)
+### Price Calculator
 
-![Price Calculator](screenshots/05-price-calculator-mobile.png)
+![Price Calculator](screenshots/04-price-calculator.png)
 
-Interactive price calculator with 10 service chips and 4 add-on toggles. Shows live-updating total, estimated duration, loyalty points earned, and a "Book This on WhatsApp" button.
-
----
-
-### Transformations (Mobile)
-
-![Transformations](screenshots/06-transformations-mobile.png)
-
-Before/after comparison slider with 3 transformations — Sun-Kissed Balayage, Bridal Glam, and Acrylic Nail Art. Auto-advances every 7 seconds with draggable divider.
+Interactive service selector with live-updating estimate panel — shows item count, duration, and total price in real time.
+"Book This on WhatsApp" button sends the full estimate directly to the salon's WhatsApp for instant confirmation.
 
 ---
 
-### Reviews (Mobile)
+### Rewards & Referral Program
 
-![Reviews](screenshots/07-reviews-mobile.png)
+![Rewards](screenshots/05-rewards.png)
 
-Dynamic reviews section with verified badges, 4.9-star summary card with distribution bars, rating filter (All/5/4/3), loading skeletons, and a review submission dialog with star rating.
-
----
-
-### Admin Dashboard
-
-![Admin Dashboard](screenshots/08-admin-dashboard.png)
-
-Password-gated full-screen overlay with 6-tab sidebar — Bookings, Reviews, Messages, Newsletter, Waitlist, Applications. Features live search/filter, confirm/cancel bookings, approve/hide reviews, and CSV export for all data types.
+Three referral benefits — 10% off for you, 10% off for your friend, and 100 bonus loyalty points for both.
+"How It Works" steps and a shareable referral code card with one-tap WhatsApp and Facebook sharing.
 
 ---
 
-### Dark Mode
+### Contact & Location
 
-![Dark Mode](screenshots/09-dark-mode.png)
+![Contact](screenshots/06-contact.png)
 
-Full dark theme with next-themes integration. Sun/moon toggle in navbar. All sections, components, and overlays adapt to the dark palette with proper contrast and rose-pink accents.
-
----
-
-### Seasonal Banner
-
-![Seasonal Banner](screenshots/10-seasonal-banner.png)
-
-Month-aware campaign banner that auto-rotates between seasonal promotions — Wedding Season, Valentine's, Spring Glow, Summer Spa, Eid, and Winter themes. Dismissible with session persistence.
+Embedded Google Maps showing Phase 6, Hayatabad with full opening hours table (Monday–Saturday 10:30 AM – 8:00 PM).
+Phone, email, and social media links with a "Follow Our Journey" section and live open/closed status indicator.
 
 ---
 
-### Mobile View
+### Footer & CTA
 
-![Mobile View](screenshots/11-mobile-view.png)
+![Footer](screenshots/07-footer.png)
 
-Fully responsive design optimized for mobile devices. Sticky glass navbar with hamburger menu, touch-friendly cards, swipeable carousels, and properly scaled typography.
-
----
-
-### Viewport
-
-![Viewport](screenshots/12-viewport.png)
-
-Clean viewport with scroll progress bar, sticky navbar with active section detection, and smooth scroll-to-section navigation across all 8 section groups.
-
----
-
-### Hero Desktop
-
-![Hero Desktop](screenshots/13-hero-desktop.png)
-
-Desktop hero layout with image collage, seasonal offer banner chip, brand marquee, and the full-width Stats counter strip (125+ reviews, 8+ years, 12+ services, 5000+ clients).
-
----
-
-### Banner Fixed
-
-![Banner Fixed](screenshots/14-banner-fixed.png)
-
-Seasonal banner overlay that sits above the hero without blocking content. Properly positioned to scroll away while the sticky navbar remains fixed.
-
----
-
-### Mobile Navigation
-
-![Mobile Navigation](screenshots/15-mobile-r8.png)
-
-Mobile navigation menu with all 9 section links, dark mode toggle, language switcher (English/Roman Urdu), and "Book Now" CTA button.
+Bold "Ready to glow with Bitanas?" call-to-action with phone number and Book Now button.
+Full footer with Explore, Services, and Visit columns — admin access, back-to-top, and copyright notice.
 
 ---
 
